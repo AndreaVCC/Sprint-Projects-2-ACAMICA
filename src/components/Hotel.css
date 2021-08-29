@@ -1,0 +1,79 @@
+.card {
+    padding: 15px;
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card:hover {
+    top: -2px;
+    transition: all 0.1s ease-in;
+  }
+  
+  .container-title {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+    height: 25px;
+  }
+  
+  .container-img img {
+    max-width: 100%;
+  }
+  
+  .fechadesde {
+    margin-bottom: 5px;
+  }
+  
+  .card-text {
+    height: 100px;
+    overflow-x: hidden;
+    color: rgb(73, 73, 73);
+    line-height: 16px;
+  }
+  
+  .pais {
+    margin-top: 10px;
+  }
+  
+  .rooms-price {
+    margin: 5px 0px 5px 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .rooms {
+    flex-grow: 2;
+    margin-right: 5px;
+  }
+  
+  .price {
+    flex-grow: 1;
+  }
+  
+  .container-info {
+    padding: 20px;
+  }
+  
+  .container-info-description {
+    height: 120px;
+    overflow-x: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .container-button {
+    width: 100%;
+  }
+  
+  .btn-reservar {
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    letter-spacing: 2px;
+    padding: 20px;
+  }
+  
